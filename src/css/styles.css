@@ -23,3 +23,16 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.field {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100px;
+}
+
+.timer {
+  display: flex;
+  flex-wrap: wrap;
+
+}
