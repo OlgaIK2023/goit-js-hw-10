@@ -203,20 +203,20 @@ letter-spacing: 1.6px;
 }
 
 .flatpickr-months {
-  background-color: antiquewhite;
+  background-color: F5F5F5;
 }
 
 span.flatpickr-day.selected,
 span.flatpickr-day.selected:hover {
-  background-color: #ff0505;
-  border-color: #ff0505;
+  background-color: #4E75FF;
+  border-color: #4E75FF;
   color: #ffffff;
 }
 
 .flatpickr-day.today.selected {
   background: antiquewhite;
-  border-color: #ff0505;
-  color: #ab803c;
+  border-color: #4E75FF;
+  color: #666666;
 }
 
 .flatpickr-time input.flatpickr-hour.selected,
