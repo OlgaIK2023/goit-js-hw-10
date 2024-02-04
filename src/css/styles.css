@@ -216,9 +216,9 @@ span.flatpickr-day.selected:hover {
 }
 
 .flatpickr-day.today.selected {
-  background: #C1C1C1;
+  background: #F5F5F5;
   border-color: #4E75FF;
-  color: #F5F5F5;
+  color: #393939;
 }
 
 .flatpickr-time input.flatpickr-hour.selected,
