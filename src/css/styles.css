@@ -34,9 +34,7 @@
 .timer {
   display: flex;
   flex-wrap: wrap;
-
 }
-
 
 * {
   box-sizing: border-box;
@@ -58,15 +56,27 @@ img {
 }
 
 input#datetime-picker {
-  width: 200px;
-  height: 32px;
-  border: none;
-  background: #f1ebe5;
-  box-shadow: 0 6px 8px #c4b59d, 0 -2px 1px #fff;
+  width: 272px;
+  height: 40px;
+  border:  1px solid #808080;
+  border-radius: 4px;
+  background: #fff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 118px;
 
   text-align: center;
-  color: #fb0404;
-  font-weight: 600;
+  color: #2E2F42;
+  
+
+  font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.64px;
+
 }
 
 input#datetime-picker[disabled] {
@@ -159,7 +169,7 @@ button[type='submit']:active {
 
 .timer {
   display: flex;
-  margin-top: 10px;
+  margin-top: 32px;
 }
 
 .field {
@@ -169,21 +179,26 @@ button[type='submit']:active {
 }
 
 .value {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 400;
   text-align: center;
   letter-spacing: 1.6px;
-  color: #2E2F42;
-  font: Montserrat;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-style: normal;
+line-height: 1.2;
+letter-spacing: 1.6px;
 }
 
 .label {
   text-align: center;
-  font-size: 20px;
-  font-weight: 400;
   text-transform: uppercase;
-  color: #f1ebe5;
-  text-shadow: 0px 4px 4px #c4b59d, 0 -2px 1px #fff;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .flatpickr-months {
