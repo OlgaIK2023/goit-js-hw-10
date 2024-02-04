@@ -203,8 +203,10 @@ letter-spacing: 1.6px;
 }
 
 .flatpickr-months {
-  background-color: F5F5F5;
+  background-color: #F5F5F5;
 }
+
+
 
 span.flatpickr-day.selected,
 span.flatpickr-day.selected:hover {
@@ -214,9 +216,9 @@ span.flatpickr-day.selected:hover {
 }
 
 .flatpickr-day.today.selected {
-  background: antiquewhite;
+  background: #C1C1C1;
   border-color: #4E75FF;
-  color: #666666;
+  color: #F5F5F5;
 }
 
 .flatpickr-time input.flatpickr-hour.selected,
@@ -225,6 +227,18 @@ span.flatpickr-day.selected:hover {
 .flatpickr-time input.flatpickr-second {
   font-weight: 400;
   color: #ff0505;
+}
+
+.dayContainer {
+  background: #F5F5F5;
+}
+
+.flatpickr-weekday {
+  background: #F5F5F5;
+}
+
+.flatpickr-weekdays {
+  background: #F5F5F5;
 }
 
 .form {
