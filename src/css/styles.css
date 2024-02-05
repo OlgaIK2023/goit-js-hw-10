@@ -31,14 +31,13 @@
   width: 100px;
 }
 
-.form  {
+.form {
   width: 360px;
 }
 
 fieldset {
   width: 360px;
   height: 78px;
-
 }
 
 .timer {
@@ -68,7 +67,7 @@ img {
 input#datetime-picker {
   width: 272px;
   height: 40px;
-  border:  1px solid #808080;
+  border: 1px solid #808080;
   border-radius: 4px;
   background: #fff;
   padding-top: 8px;
@@ -77,28 +76,26 @@ input#datetime-picker {
   padding-right: 118px;
 
   text-align: center;
-  color: #2E2F42;
-  
+  color: #2e2f42;
 
   font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.64px;
-
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
 }
 
 .flatpickr-weekdays {
-  background: #F5F5F5;
+  background: #f5f5f5;
 }
 
 input#datetime-picker[disabled] {
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
 [disabled] {
-  color: #2E2F42;
+  color: #2e2f42;
   animation: none;
 }
 
@@ -106,14 +103,14 @@ button {
   display: inline-block;
   width: 75px;
   height: 40px;
-  
+
   border: none;
   border-radius: 8px;
   font-size: 14px;
   cursor: pointer;
   /* color: #989898;
   background: #CFCFCF; */
-  background-color: #4E75FF;
+  background-color: #4e75ff;
   color: #fff;
   transform: all 300ms linear;
 }
@@ -126,13 +123,11 @@ button[data-stop] {
 button[disabled] {
   color: #989898;
   animation: none;
-  background-color: #CFCFCF;
-  
+  background-color: #cfcfcf;
 }
 
 [data-start] {
- 
-  background-color: #CFCFCF;
+  background-color: #cfcfcf;
   color: #989898;
 }
 
@@ -160,23 +155,18 @@ button[disabled] {
 button:active {
   position: relative;
   top: 3px;
-  background-color: #4E75FF;
+  background-color: #4e75ff;
   color: #fff;
 }
 
 button[type='submit'] {
-  width: 88px;
-  height: 44px;
-  border-radius: 34px;
-  background-color: #f7eff4;
-  filter: drop-shadow(3.4px 3.4px 3.4px rgb(183, 177, 181))
-    drop-shadow(-3.4px -3.4px 3.4px white);
-  -webkit-filter: drop-shadow(3.4px 3.4px 3.4px rgb(183, 177, 181))
-    drop-shadow(-3.4px -3.4px 3.4px white);
-  box-shadow: inset 4.3px 4.3px 7px #fff;
-
-  color: #ff0505;
-  text-shadow: 1px 1.6px 1px #fff;
+  width: 360px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #4E75FF;
+ 
+  color: #fff;
+  
 }
 
 button[type='submit']:hover {
@@ -209,8 +199,8 @@ button[type='submit']:active {
   color: #2e2f42;
   font-family: Montserrat;
   font-style: normal;
-line-height: 1.2;
-letter-spacing: 1.6px;
+  line-height: 1.2;
+  letter-spacing: 1.6px;
 }
 
 .label {
@@ -225,21 +215,19 @@ letter-spacing: 1.6px;
 }
 
 .flatpickr-months {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
-
-
 
 span.flatpickr-day.selected,
 span.flatpickr-day.selected:hover {
-  background-color: #4E75FF;
-  border-color: #4E75FF;
+  background-color: #4e75ff;
+  border-color: #4e75ff;
   color: #ffffff;
 }
 
 .flatpickr-day.today.selected {
-  background: #F5F5F5;
-  border-color: #4E75FF;
+  background: #f5f5f5;
+  border-color: #4e75ff;
   color: #393939;
 }
 
@@ -248,18 +236,16 @@ span.flatpickr-day.selected:hover {
 .flatpickr-time input.flatpickr-minute,
 .flatpickr-time input.flatpickr-second {
   font-weight: 400;
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
 .dayContainer {
-  background: #F5F5F5;
+  background: #f5f5f5;
 }
 
 .flatpickr-weekday {
-  background: #F5F5F5;
+  background: #f5f5f5;
 }
-
-
 
 .form {
   display: flex;
@@ -282,7 +268,6 @@ label span {
 }
 
 input[type='number'] {
-
   border-color: #808080;
   padding: 10px;
   width: 360px;
@@ -293,12 +278,9 @@ input[type='number'] {
   border-radius: 5px;
 
   background-color: transparent;
-  color: #2E2F42;
-  
-  
+  color: #2e2f42;
 
   font-size: 16px;
-  
 }
 input[type='number']::placeholder {
   color: #e2c8f5;
@@ -347,4 +329,3 @@ ul {
 .main-link:active {
   box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
-
