@@ -79,12 +79,16 @@ letter-spacing: 0.64px;
 
 }
 
+.flatpickr-weekdays {
+  background: #F5F5F5;
+}
+
 input#datetime-picker[disabled] {
-  color: #ab803c;
+  color: #2E2F42;
 }
 
 [disabled] {
-  color: #ab803c;
+  color: #2E2F42;
   animation: none;
 }
 
@@ -110,10 +114,14 @@ button[data-stop] {
 button[disabled] {
   color: #989898;
   animation: none;
+  background-color: #CFCFCF;
+  
 }
 
 [data-start] {
-  animation: waves 2s ease-in-out infinite;
+ 
+  background-color: #CFCFCF;
+  color: #989898;
 }
 
 [data-start-timer] {
@@ -140,6 +148,8 @@ button[disabled] {
 button:active {
   position: relative;
   top: 3px;
+  background-color: #4E75FF;
+  color: #fff;
 }
 
 button[type='submit'] {
@@ -226,7 +236,7 @@ span.flatpickr-day.selected:hover {
 .flatpickr-time input.flatpickr-minute,
 .flatpickr-time input.flatpickr-second {
   font-weight: 400;
-  color: #ff0505;
+  color: #2E2F42;
 }
 
 .dayContainer {
@@ -237,9 +247,7 @@ span.flatpickr-day.selected:hover {
   background: #F5F5F5;
 }
 
-.flatpickr-weekdays {
-  background: #F5F5F5;
-}
+
 
 .form {
   display: flex;
