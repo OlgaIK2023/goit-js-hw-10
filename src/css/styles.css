@@ -120,21 +120,39 @@ button[data-stop] {
   margin-right: 20px;
 }
 
-button[disabled] {
-  color: #989898;
-  animation: none;
-  background-color: #cfcfcf;
-}
-
-[data-start] {
-  background-color: #cfcfcf;
-  color: #989898;
-}
 
 [data-start-timer] {
   background-color: transparent;
   animation: waves 2s ease-in-out infinite;
 }
+
+button[data-start]{
+  color:#FFF;
+  width: 75px;
+  height: 40px;
+  font-family: inherit;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  border-radius: 8px;
+  background-color: #4E75FF;
+  padding: 8px 0;
+  text-align: center;
+}
+
+button[data-start]:hover{
+  background-color: #6C8CFF;
+}
+
+button[data-start]:disabled{
+  color: #989898;
+  background-color: #CFCFCF;
+}
+
+
 
 @keyframes waves {
   0% {
